@@ -1,0 +1,116 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local Netlify folder
+.netlify
+
+# =========================
+# Python Project .gitignore
+# =========================
+
+# --- Virtual Environment ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Python Cache & Build Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.whl
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Environment Files ---
+.env
+*.env
+
+# --- Logs & Debug Files ---
+*.log
+logs/
+debug.log
+
+# --- Dataset & Large Files ---
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.gz
+
+# --- Model Files ---
+# If you are using Git LFS, you can remove the next line
+*.onnx
+*.h5
+*.pt
+*.pth
+*.tflite
+*.pb
+*.ckpt
+
+# --- Image & Media Caches ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor Specific Files ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Temporary Files ---
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# --- Testing & Coverage ---
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+
